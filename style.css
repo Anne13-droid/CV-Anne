@@ -1,0 +1,99 @@
+.cv{
+    width: 1200px;
+    box-shadow: 10px 10px 10px 10px rgb(208, 168, 129);
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    background: linear-gradient(180deg,rgba(248, 178, 108, 0.5) 0%, rgba(255, 255, 255, 0) 50%, rgba(248, 178, 108, 0.5) 100%);
+}
+
+
+h1{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+
+h2{
+    width: auto;
+    color: rgb(103, 103, 71);
+    background : rgb(248, 178, 108);
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.experience{
+    padding-left: 40PX;
+}
+
+.métier{
+    font-size: 2em;
+}
+
+.profil{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(180deg,rgba(248, 156, 63, 0.5) 0%, rgba(255, 255, 255, 0) 50%, rgba(248, 156, 63, 0.5) 100%);;
+}
+
+.competences{
+    width: auto;
+    height: 150px;
+    margin-right: 50px;
+    border-radius: 20%;
+    zoom: 30%;
+    display: flex;
+    justify-self: end;
+    align-self: end;   
+    transition: transform .3s ease-in-out; 
+}
+
+.competences:hover{
+    transform: scale(2);
+}
+
+li{
+    display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+
+}
+
+
+p{
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+section{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+aside{
+    width: 50%;
+    position: relative;
+   
+}
+
+article{
+    width:50%;
+    margin-left: 20px;
+}
+
