@@ -27,14 +27,15 @@ h2{
 
 .projets{
     text-decoration: none;
-    animation-duration: .8s;
+    animation-duration: 5s;
+    animation-delay: 5s, 10s;
    animation-name: clignoter;
    animation-iteration-count: infinite;
    transition: none;
 }
 @keyframes clignoter {
     0%   { opacity:1; }
-  40%   {opacity:0; }
+  30%   {opacity:0; }
   100% { opacity:1; }
 }
 
@@ -56,7 +57,7 @@ header{
     object-fit: cover;
     border-radius: 50%;
     margin-right: 40px;
-    transition: transform .5s ease ease-in-out;
+    transition: transform .3s ease-in-out;
 }
 
 .profil:hover{
@@ -96,7 +97,7 @@ header{
     display: flex;
     justify-self: end;
     align-self: end;   
-    transition: transform .3s ease-in-out; 
+    transition: transform 3s ease-in-out; 
     cursor: pointer;
 }
 
