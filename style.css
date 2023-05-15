@@ -1,5 +1,5 @@
 .cv{
-    width: 1200px;
+    max-width: 1200px;
     box-shadow: 10px 10px 10px 10px rgb(208, 168, 129);
     padding: 10px;
     margin: 0 auto;
@@ -60,9 +60,6 @@ h2{
     background-color:transparent;
 }
 
-header{
-    position: relative;
-}
 
 .profil{
     width: 150px;
@@ -142,7 +139,8 @@ aside{
 
 article{
     width:50%;
-    margin-left: 20px;
+    margin-left: 10px;
+    max-width: 1200px;
 }
 
 .number{
@@ -167,3 +165,24 @@ a{
     font-size: x-large;
 }
 
+@media screen and (max-width : 700px) {
+    .name{
+        display: flex;
+        flex-direction: column;
+    }
+    section {
+        display: flex;
+        flex-direction: column-reverse;        
+    }
+
+    aside{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    article{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
